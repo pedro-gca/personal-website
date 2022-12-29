@@ -295,6 +295,7 @@ nav {
     .nav_bar {
         margin-top: 1vh;
         list-style-type: square;
+        padding-left: 4vw;
     }
 
     .devicon-linkedin-plain {
