@@ -308,7 +308,7 @@ nav {
   }
 
 
-  @media only screen and (max-width: 580px) {
+  @media only screen and (max-width: 780px) {
     /* For mobile phones: */
     
     body {
@@ -337,7 +337,7 @@ nav {
         margin-bottom: 3vh;
         display: grid;
         grid-template-columns: 70vw 30vw;
-        grid-template-rows: 20vh 2fr;
+        grid-template-rows: 15vh 2fr;
         border: solid aliceblue 4px;
         justify-items: center;
         align-items: center;
@@ -356,7 +356,7 @@ nav {
     .text_section {
         margin: 1vh;
         margin-right: 5vw;
-        margin-top: 2vh;
+        margin-top: 5vh;
         align-self: flex-start;
         justify-self: flex-start;
         line-height: 1.5;
@@ -371,12 +371,14 @@ nav {
 
     nav {
         margin-top: -18vh;
-        margin-left: -4vw;
+        margin-left: -2.5vw;
         position: relative;
         display: block;
         border-top: solid aliceblue 0.1px;
         border-left: solid aliceblue 0.1px;
         justify-self: start;
+        justify-items: start;
+        align-items: flex-start;
         white-space: normal;
     }
 
@@ -408,6 +410,7 @@ nav {
     .nav_bar {
         margin-top: 3vh;
         list-style-type: square;
+        padding-left: 5vw;
     }
 
     .devicon-linkedin-plain {
