@@ -338,7 +338,7 @@ nav {
         display: grid;
         grid-template-columns: 70vw 30vw;
         grid-template-rows: 15vh 2fr;
-        border: solid aliceblue 4px;
+        border: solid aliceblue 2px;
         justify-items: center;
         align-items: center;
         padding-top: 1vh;
@@ -410,7 +410,7 @@ nav {
     .nav_bar {
         margin-top: 3vh;
         list-style-type: square;
-        padding-left: 5vw;
+        padding-left: 3.8vw;
     }
 
     .devicon-linkedin-plain {
