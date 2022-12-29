@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro's Website</title>
+
+
+    <link rel="stylesheet" href="style_index.css" />
+    <script src="index_script.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="main_section" style="overflow: hidden;">
+        <header>
+            <h1 class="title">
+                Pedro Carvalho
+            </h1>
+            <div class="subtitle">Junior Software Engineer</div>
+        </header>
+        <div style="position: relative; justify-self: start;">
+            <span class="contact_list">
+                <a class="contact_item" href="https://www.linkedin.com/in/pedro-gca/"> <i class="devicon-linkedin-plain" style="font-size: 10vh"></i></a>
+                <a class="contact_item" href="https://github.com/pedro-gca"><i class="devicon-git-plain" style="font-size: 10vh"></i></a>
+                <!-- <a class="contact_item" href="https://www.linkedin.com/in/pedro-gca/"> <i class="devicon-linkedin-plain"></i></a> -->
+                <!-- <a class="contact_item" href="https://github.com/pedro-gca"><i class="devicon-git-plain"></i></a> -->
+            </span>
+        </div>
+        <section class="text_section">
+            <div class="active" id="about_me" data-tab-content>
+                <div>
+                    <h2>About me</h2>
+                    <p>Hello! I'm Pedro, 24yo, Software Engineering Student at University of Rome Sapienza. I'm from Brazil but at the moment I'm living in Italy.</p>
+                    <p>I speak portuguese, english and italian, but looking foward to improving my speaking skills in english before tackling a new language.</p>
+                    <p>This website will be used to showcase some of my personal projects aswell as to show a little bit of who I am :)</p>
+                    <p>Feel free to contact me!</p>
+                </div>
+            </div>
+            <div id="portfolio" data-tab-content>
+                <div>
+                    <h2>Portfolio</h2>
+                    <p>Currently this website is the only thing worth showing here, it was my first time designing a webpage and first real life project using JS, HTML and CSS.</p>
+                    <p>I had some issues with the mobile version, since I started building it without cellphones in mind, but it worked at the end of the day.</p>
+                    <p>Be sure to check the next projects!</p>
+                </div>
+            </div>
+            <div id="work" data-tab-content>
+                <div>
+                    <h2>Professional Experience</h2>
+                    <p>At the moment I don't have a job, but I am currently looking for one!</p>
+                    <p>My last job was in Brazil at a cyber security company called AvantSec, I worked as a DevOps analyst for 7 months, until I decided to quit and go back to university, to focus on a developer career</p>
+                </div>
+            </div>
+            <div id="projects" data-tab-content>
+                <h2>Projects</h2>
+                <p>Currently I'm working with:</p>
+                    <li>Android App Dev with Kotlin</li>
+                    <li>Game dev with the Godot game engine</li>
+                <p>I plan on making changes in this page later on, once I have more experience with front-end technologies.</p>
+            </div>
+            <div id="hobbies" data-tab-content>
+                <h2>Hobbies</h2>
+                <p>Video-games, animes, music, cooking and science, those are the things that I like the most!</p>    
+                <p>I also really enjoy real-life random facts! So, if you are curious feel free to ask me for a random fact!</p>
+            </div>
+        </section>
+        <nav>
+            <ul class="nav_bar">
+                <li data-tab-target="#about_me">About me</li>
+                <li data-tab-target="#portfolio">Portfolio</li>
+                <li data-tab-target="#work">Professional Experience</li>
+                <li data-tab-target="#projects">Current Projects</li>
+                <li data-tab-target="#hobbies">Hobbies</li>
+            </ul>
+        </nav>
+    </main>
+</body>
+</html>
