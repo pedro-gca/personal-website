@@ -91,7 +91,6 @@ header {
 
 .contact_list {
     /* position: absolute; */
-    font-size: 6vh;
     align-items:flex-start;
     white-space: nowrap;
 }
@@ -171,6 +170,14 @@ nav {
 
 .nav_bar {
     list-style-type: square;
+}
+
+.devicon-linkedin-plain {
+    font-size: 10vh;
+}
+
+.devicon-git-plain {
+    font-size: 10vh;
 }
 
 @media only screen and (max-width: 768px) {
@@ -284,6 +291,14 @@ nav {
     .nav_bar {
         margin-top: 1vh;
         list-style-type: square;
+    }
+
+    .devicon-linkedin-plain {
+        font-size: 5vh;
+    }
+
+    .devicon-git-plain {
+        font-size: 5vh;
     }
     
   }
