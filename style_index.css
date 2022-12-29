@@ -180,7 +180,11 @@ nav {
     font-size: 10vh;
 }
 
-@media only screen and (max-width: 768px) {
+
+
+
+
+@media only screen and (max-width: 1200px) {
     /* For mobile phones: */
     
     body {
@@ -299,6 +303,119 @@ nav {
 
     .devicon-git-plain {
         font-size: 5vh;
+    }
+    
+  }
+
+
+  @media only screen and (max-width: 580px) {
+    /* For mobile phones: */
+    
+    body {
+        font-size: 1.8vh;
+    }
+
+    [class="title"] {
+      font-size: 5vh;
+      margin-bottom: 0.2vh;
+      letter-spacing: 1vw;
+    }
+
+    [class="subtitle"]{
+        font-size: 2.5vh;
+        justify-self: center;
+    }
+
+
+    .main_section {
+        background-color: #202127;
+        height: 90vh;
+        width: 94vw;
+        margin-left: 1.3vw;
+        margin-right: 1vw;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        display: grid;
+        grid-template-columns: 70vw 30vw;
+        grid-template-rows: 20vh 2fr;
+        border: solid aliceblue 4px;
+        justify-items: center;
+        align-items: center;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        position: relative;
+    }
+
+    header {
+        height: 9vh;
+    }
+
+        
+    .text_section {
+        margin: 1vh;
+        margin-right: 5vw;
+        margin-top: 2vh;
+        align-self: flex-start;
+        justify-self: flex-start;
+        line-height: 1.5;
+    }
+    
+    .contact_item {
+        font-size: 6vh;
+        color: #fff;
+        text-decoration: none;
+        justify-self: center;
+    }
+
+    nav {
+        margin-top: -18vh;
+        margin-left: -4vw;
+        position: relative;
+        display: block;
+        border-top: solid aliceblue 0.1px;
+        border-left: solid aliceblue 0.1px;
+        justify-self: start;
+        white-space: normal;
+    }
+
+    [data-tab-target] {
+        height: 6.5vh;
+        width: 15.5vw;
+        white-space: normal;
+    }
+
+    [data-tab-target]:hover {
+        animation: font_size 0.2s ease-in;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes font_size {
+        0% {
+            
+        }
+        100% {
+            font-size: 2.5vh;
+            fill: "freeze";
+        }
+    }
+
+    .active[data-tab-content] {
+        display: block;
+    }
+
+    .nav_bar {
+        margin-top: 3vh;
+        list-style-type: square;
+    }
+
+    .devicon-linkedin-plain {
+        font-size: 3vh;
+    }
+
+    .devicon-git-plain {
+        font-size: 3vh;
     }
     
   }
